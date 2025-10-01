@@ -66,3 +66,20 @@ footer {
   margin-top: 40px;
   border-radius: 5px;
 }
+.contact-btn {
+  display: inline-block;
+  background-color: #630063;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-btn:hover {
+  background-color: #7a007a;
+  transform: translateY(-2px);
+}
+
